@@ -1,9 +1,12 @@
 # Activity 1
+
+from fractions import Fraction
+
 denominator = 2
 result = Fraction(0, 1)
 
-for i in range(1, 100):
-    result = Fraction(1, denominator) + result
+for _ in range(1, 100):
+    result += Fraction(1, denominator)
     denominator *= 2
 
 print(f"Final result: {result}")
