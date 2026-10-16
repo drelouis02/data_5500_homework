@@ -1,6 +1,6 @@
 #read in tsla txt file and st pric variable as float of numbers and 
 #round it to two decimal places
-file = open('tsla.txt', 'r')
+file = open('TSLA.txt', 'r')
 lines = file.readlines()
 file.close()
 #make price a list and strip the edges off
